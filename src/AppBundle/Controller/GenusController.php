@@ -13,6 +13,6 @@ class GenusController extends Controller
      */
     public function showAction($genusName)
     {
-        return new Response('Under the sea!');
+        return new Response('The genus ' . $genusName);
     }
 }
